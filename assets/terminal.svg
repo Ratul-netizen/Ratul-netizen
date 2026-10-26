@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="430" viewBox="0 0 860 430" fill="none" role="img" aria-label="Animated terminal">
+  <style>
+    text { font-family: ui-monospace, "SFMono-Regular", "Cascadia Code", Consolas, "Liberation Mono", monospace; font-size: 17px; }
+    .usr { fill: #00ff41; }
+    .pth { fill: #39d353; }
+    .cmd { fill: #e6edf3; }
+    .out { fill: #7ee787; }
+    .mut { fill: #8b949e; }
+    .line { clip-path: inset(0 100% 0 0); }
+    .l1 { animation: t1 16s linear infinite; }
+    .l2 { animation: t2 16s linear infinite; }
+    .l3 { animation: t3 16s linear infinite; }
+    .l4 { animation: t4 16s linear infinite; }
+    .l5 { animation: t5 16s linear infinite; }
+    .l6 { animation: t6 16s linear infinite; }
+    .cursor { fill: #00ff41; animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes t1 { 0%,3%{clip-path:inset(0 100% 0 0)} 11%{clip-path:inset(0 0 0 0)} 88%{clip-path:inset(0 0 0 0)} 94%,100%{clip-path:inset(0 100% 0 0)} }
+    @keyframes t2 { 0%,14%{clip-path:inset(0 100% 0 0)} 21%{clip-path:inset(0 0 0 0)} 88%{clip-path:inset(0 0 0 0)} 94%,100%{clip-path:inset(0 100% 0 0)} }
+    @keyframes t3 { 0%,22%{clip-path:inset(0 100% 0 0)} 30%{clip-path:inset(0 0 0 0)} 88%{clip-path:inset(0 0 0 0)} 94%,100%{clip-path:inset(0 100% 0 0)} }
+    @keyframes t4 { 0%,34%{clip-path:inset(0 100% 0 0)} 41%{clip-path:inset(0 0 0 0)} 88%{clip-path:inset(0 0 0 0)} 94%,100%{clip-path:inset(0 100% 0 0)} }
+    @keyframes t5 { 0%,42%{clip-path:inset(0 100% 0 0)} 50%{clip-path:inset(0 0 0 0)} 88%{clip-path:inset(0 0 0 0)} 94%,100%{clip-path:inset(0 100% 0 0)} }
+    @keyframes t6 { 0%,54%{clip-path:inset(0 100% 0 0)} 61%{clip-path:inset(0 0 0 0)} 88%{clip-path:inset(0 0 0 0)} 94%,100%{clip-path:inset(0 100% 0 0)} }
+  </style>
+
+  <defs>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#10151c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- window -->
+  <rect x="2" y="2" width="856" height="426" rx="12" fill="#0d1117" stroke="#00ff41" stroke-opacity="0.55" stroke-width="1.5" filter="url(#glow)"/>
+  <rect x="2.75" y="2.75" width="854.5" height="40" rx="11" fill="url(#bar)"/>
+  <rect x="2.75" y="30" width="854.5" height="13" fill="#161b22"/>
+
+  <!-- traffic lights -->
+  <circle cx="26" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="48" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="70" cy="22" r="6" fill="#27c93f"/>
+  <text x="430" y="27" text-anchor="middle" class="mut" style="font-size:14px">visitor@ratul: ~/redteam</text>
+
+  <!-- body -->
+  <text x="26" y="92"  class="line l1"><tspan class="usr">visitor@ratul</tspan><tspan class="mut">:</tspan><tspan class="pth">~$</tspan><tspan class="cmd"> whoami</tspan></text>
+  <text x="26" y="128" class="line l2"><tspan class="out">➜ Md. Wahid Sadiq Ratul — Red Team &amp; Offensive Security Engineer</tspan></text>
+
+  <text x="26" y="178" class="line l3"><tspan class="usr">visitor@ratul</tspan><tspan class="mut">:</tspan><tspan class="pth">~$</tspan><tspan class="cmd"> cat ./skills | head</tspan></text>
+  <text x="26" y="214" class="line l4"><tspan class="out">➜ Adversary Emulation · AD Exploitation · Web/API/Network VAPT · MITRE ATT&amp;CK</tspan></text>
+
+  <text x="26" y="264" class="line l5"><tspan class="usr">visitor@ratul</tspan><tspan class="mut">:</tspan><tspan class="pth">~$</tspan><tspan class="cmd"> ./status --certs --stats</tspan></text>
+  <text x="26" y="300" class="line l6"><tspan class="out">➜ CPTS (Hack The Box) · 5 full-scope engagements · 120+ critical &amp; high findings</tspan></text>
+
+  <!-- prompt + cursor -->
+  <text x="26" y="358"><tspan class="usr">visitor@ratul</tspan><tspan class="mut">:</tspan><tspan class="pth">~$</tspan></text>
+  <rect x="150" y="345" width="11" height="18" class="cursor"/>
+</svg>
