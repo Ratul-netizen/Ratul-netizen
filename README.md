@@ -1,6 +1,6 @@
 <!-- ═══════════════════════  HEADER BANNER  ═══════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff41,100:006414&height=200&section=header&text=Md.%20Wahid%20Sadiq%20Ratul&fontSize=40&fontColor=0d1117&animation=fadeIn&fontAlignY=36&desc=Red%20Team%20%7C%20Offensive%20Security%20Engineer%20%7C%20CPTS&descSize=17&descAlignY=56&descAlign=50" alt="header"/>
+  <img src="https://raw.githubusercontent.com/Ratul-netizen/Ratul-netizen/main/assets/header.svg" alt="Md. Wahid Sadiq Ratul — Red Team / Offensive Security Engineer" width="100%"/>
 </p>
 
 <!-- ═══════════════════════  ANIMATED TERMINAL  ═══════════════════════ -->
@@ -126,11 +126,6 @@ threat actors across **enterprise, government, and critical-infrastructure** env
 
 <p align="center">
   <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ratul-netizen&layout=compact&hide_border=true&langs_count=10&title_color=00ff41&text_color=c9d1d9&bg_color=0d1117" alt="top langs"/>
-</p>
-
-<!-- ═══════════════════════  SNAKE ANIMATION  ═══════════════════════ -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Ratul-netizen/Ratul-netizen/output/github-contribution-grid-snake-dark.svg" alt="snake animation"/>
 </p>
 
 ---
