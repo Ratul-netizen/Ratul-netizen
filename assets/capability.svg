@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="310" viewBox="0 0 900 310" role="img" aria-label="Operational capability">
+<defs>
+<linearGradient id="fill" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#006414"/><stop offset="1" stop-color="#00ff41"/></linearGradient>
+<pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#0f5132" stroke-opacity="0.18" stroke-width="0.6"/></pattern>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.35"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<clipPath id="panel"><rect x="2" y="2" width="896" height="306" rx="14"/></clipPath>
+</defs>
+<style>
+.lbl{font-family:ui-monospace,Consolas,monospace;font-size:13px;fill:#9df5b0;letter-spacing:.4px}
+.val{font-family:ui-monospace,Consolas,monospace;font-size:13px;fill:#00ff41;font-weight:700}
+.ttl{font-family:ui-monospace,Consolas,monospace;font-size:13px;fill:#4ade80;letter-spacing:3px;opacity:.85}
+.big{font-family:"Trebuchet MS",Verdana,sans-serif;font-weight:800;fill:#00ff41}
+.cap{font-family:ui-monospace,Consolas,monospace;font-size:9.5px;fill:#7ee787;letter-spacing:1.5px}
+.st{font-family:ui-monospace,Consolas,monospace;font-size:11px;fill:#4ade80;letter-spacing:2px}
+.dot{animation:blink 1.2s steps(1) infinite}
+.shine{animation:shine 3.5s linear infinite}
+@keyframes blink{50%{opacity:.25}}
+@keyframes shine{0%{transform:translateX(-120px)}100%{transform:translateX(960px)}}
+.b0{transform-box:fill-box;transform-origin:left center;animation:f0 7.0s ease-out infinite}
+@keyframes f0{0%,3%{transform:scaleX(0)}12%{transform:scaleX(1)}93%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+.b1{transform-box:fill-box;transform-origin:left center;animation:f1 7.0s ease-out infinite}
+@keyframes f1{0%,6%{transform:scaleX(0)}15%{transform:scaleX(1)}93%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+.b2{transform-box:fill-box;transform-origin:left center;animation:f2 7.0s ease-out infinite}
+@keyframes f2{0%,9%{transform:scaleX(0)}18%{transform:scaleX(1)}93%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+.b3{transform-box:fill-box;transform-origin:left center;animation:f3 7.0s ease-out infinite}
+@keyframes f3{0%,12%{transform:scaleX(0)}21%{transform:scaleX(1)}93%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+.b4{transform-box:fill-box;transform-origin:left center;animation:f4 7.0s ease-out infinite}
+@keyframes f4{0%,15%{transform:scaleX(0)}24%{transform:scaleX(1)}93%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+.b5{transform-box:fill-box;transform-origin:left center;animation:f5 7.0s ease-out infinite}
+@keyframes f5{0%,18%{transform:scaleX(0)}27%{transform:scaleX(1)}93%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+</style>
+<g clip-path="url(#panel)">
+<rect x="2" y="2" width="896" height="306" rx="14" fill="#070b09"/>
+<rect x="2" y="2" width="896" height="306" fill="url(#grid)"/>
+<text x="40" y="44" class="ttl">// OPERATIONAL CAPABILITY</text>
+<line x1="40" y1="54" x2="860" y2="54" stroke="#0f5132" stroke-width="1"/>
+<text x="40" y="71" class="lbl">Red Team / Adversary Emulation</text>
+<text x="340" y="71" text-anchor="end" class="val">95%</text>
+<rect x="40" y="78" width="300" height="9" rx="4.5" fill="#0d1a12" stroke="#13351f" stroke-width="1"/>
+<rect class="b0" x="40" y="78" width="285.0" height="9" rx="4.5" fill="url(#fill)"/>
+<text x="40" y="107" class="lbl">Web · API · Network VAPT</text>
+<text x="340" y="107" text-anchor="end" class="val">92%</text>
+<rect x="40" y="114" width="300" height="9" rx="4.5" fill="#0d1a12" stroke="#13351f" stroke-width="1"/>
+<rect class="b1" x="40" y="114" width="276.0" height="9" rx="4.5" fill="url(#fill)"/>
+<text x="40" y="143" class="lbl">Active Directory Exploitation</text>
+<text x="340" y="143" text-anchor="end" class="val">88%</text>
+<rect x="40" y="150" width="300" height="9" rx="4.5" fill="#0d1a12" stroke="#13351f" stroke-width="1"/>
+<rect class="b2" x="40" y="150" width="264.0" height="9" rx="4.5" fill="url(#fill)"/>
+<text x="40" y="179" class="lbl">SIEM / Detection Engineering</text>
+<text x="340" y="179" text-anchor="end" class="val">86%</text>
+<rect x="40" y="186" width="300" height="9" rx="4.5" fill="#0d1a12" stroke="#13351f" stroke-width="1"/>
+<rect class="b3" x="40" y="186" width="258.0" height="9" rx="4.5" fill="url(#fill)"/>
+<text x="40" y="215" class="lbl">OSINT & Threat Intelligence</text>
+<text x="340" y="215" text-anchor="end" class="val">85%</text>
+<rect x="40" y="222" width="300" height="9" rx="4.5" fill="#0d1a12" stroke="#13351f" stroke-width="1"/>
+<rect class="b4" x="40" y="222" width="255.0" height="9" rx="4.5" fill="url(#fill)"/>
+<text x="40" y="251" class="lbl">Automation · Python/Bash/PS</text>
+<text x="340" y="251" text-anchor="end" class="val">88%</text>
+<rect x="40" y="258" width="300" height="9" rx="4.5" fill="#0d1a12" stroke="#13351f" stroke-width="1"/>
+<rect class="b5" x="40" y="258" width="264.0" height="9" rx="4.5" fill="url(#fill)"/>
+<line x1="400" y1="70" x2="400" y2="286" stroke="#0f5132" stroke-width="1" stroke-dasharray="3 4"/>
+<rect x="440" y="72" width="195" height="94" rx="10" fill="#0a130d" stroke="#13351f" stroke-width="1.2"/>
+<rect x="440" y="72" width="4" height="94" rx="2" fill="#00ff41"/>
+<text x="541.5" y="120" text-anchor="middle" class="big" style="font-size:34px">~3</text>
+<text x="541.5" y="146" text-anchor="middle" class="cap">YEARS</text>
+<rect x="655" y="72" width="195" height="94" rx="10" fill="#0a130d" stroke="#13351f" stroke-width="1.2"/>
+<rect x="655" y="72" width="4" height="94" rx="2" fill="#00ff41"/>
+<text x="756.5" y="120" text-anchor="middle" class="big" style="font-size:34px">5</text>
+<text x="756.5" y="146" text-anchor="middle" class="cap">ENGAGEMENTS</text>
+<rect x="440" y="186" width="195" height="94" rx="10" fill="#0a130d" stroke="#13351f" stroke-width="1.2"/>
+<rect x="440" y="186" width="4" height="94" rx="2" fill="#00ff41"/>
+<text x="541.5" y="234" text-anchor="middle" class="big" style="font-size:26px">120+</text>
+<text x="541.5" y="260" text-anchor="middle" class="cap">CRIT / HIGH</text>
+<rect x="655" y="186" width="195" height="94" rx="10" fill="#0a130d" stroke="#13351f" stroke-width="1.2"/>
+<rect x="655" y="186" width="4" height="94" rx="2" fill="#00ff41"/>
+<text x="756.5" y="234" text-anchor="middle" class="big" style="font-size:26px">CPTS</text>
+<text x="756.5" y="260" text-anchor="middle" class="cap">CERTIFIED</text>
+<circle class="dot" cx="46" cy="296" r="4" fill="#00ff41"/>
+<text x="58" y="300" class="st">SYSTEMS NOMINAL · MITRE ATT&amp;CK MAPPED · READY</text>
+<rect class="shine" x="-120" y="2" width="120" height="306" fill="url(#shine)" opacity="0.08"/>
+<rect x="2.5" y="2.5" width="895" height="305" rx="14" fill="none" stroke="#00ff41" stroke-opacity="0.4" stroke-width="1.2"/>
+</g></svg>

@@ -128,6 +128,10 @@ threat actors across **enterprise, government, and critical-infrastructure** env
   <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ratul-netizen&layout=compact&hide_border=true&langs_count=10&title_color=00ff41&text_color=c9d1d9&bg_color=0d1117" alt="top langs"/>
 </p>
 
+<p align="center">
+  <img width="98%" src="https://raw.githubusercontent.com/Ratul-netizen/Ratul-netizen/main/assets/capability.svg" alt="operational capability"/>
+</p>
+
 ---
 
 <!-- ═══════════════════════  CONNECT  ═══════════════════════ -->
