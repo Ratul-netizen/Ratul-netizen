@@ -59,6 +59,23 @@ threat actors across **enterprise, government, and critical-infrastructure** env
 
 ---
 
+<!-- ═══════════════════════  CERTIFICATIONS  ═══════════════════════ -->
+### 🏅 Certifications
+
+<p align="center">
+  <a href="https://profile.hackthebox.com/profile/019ec627-b4f5-716e-90b3-ace589ddc16a/certificate/HTBCERT-6FC7F6A6C2">
+    <img src="https://images.credly.com/images/e63aa507-b974-4e67-bae6-1e425f6e2a99/image.png" width="128" alt="CPTS badge"/>
+  </a>
+</p>
+<p align="center">
+  <b>Certified Penetration Testing Specialist (CPTS)</b> — Hack The Box<br/>
+  <a href="https://www.credly.com/badges/57b3a0ea-03c1-4bda-b86e-707ff690f2d5/public_url">🔗 Verify on Credly</a>
+  &nbsp;·&nbsp;
+  <a href="https://profile.hackthebox.com/profile/019ec627-b4f5-716e-90b3-ace589ddc16a/certificate/HTBCERT-6FC7F6A6C2">📜 HTB Certificate</a>
+</p>
+
+---
+
 <!-- ═══════════════════════  TECH STACK  ═══════════════════════ -->
 ### 🧰 Arsenal & Stack
 
@@ -128,7 +145,7 @@ threat actors across **enterprise, government, and critical-infrastructure** env
   <a href="mailto:wsratul517@gmail.com">
     <img src="https://img.shields.io/badge/Email-00ff41?style=for-the-badge&logo=gmail&logoColor=black" alt="Email"/>
   </a>
-  <a href="https://app.hackthebox.com">
+  <a href="https://profile.hackthebox.com/profile/019ec627-b4f5-716e-90b3-ace589ddc16a">
     <img src="https://img.shields.io/badge/Hack%20The%20Box-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black" alt="HackTheBox"/>
   </a>
   <a href="https://github.com/Ratul-netizen">
