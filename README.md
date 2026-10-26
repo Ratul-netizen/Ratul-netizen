@@ -120,7 +120,7 @@ threat actors across **enterprise, government, and critical-infrastructure** env
 ### 📊 GitHub Activity
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Ratul-netizen&show_icons=true&count_private=true&hide_border=true&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&bg_color=0d1117" alt="stats"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Ratul-netizen&show_icons=true&count_private=true&hide_rank=true&hide_border=true&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&bg_color=0d1117" alt="stats"/>
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ratul-netizen&hide_border=true&background=0d1117&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9&dayLabels=c9d1d9" alt="streak"/>
 </p>
 

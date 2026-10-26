@@ -1,87 +1,271 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-label="Md. Wahid Sadiq Ratul — Red Team / Offensive Security Engineer">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#050807"/>
-      <stop offset="0.5" stop-color="#0a120c"/>
-      <stop offset="1" stop-color="#050807"/>
-    </linearGradient>
-    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" fill="none" stroke="#0f5132" stroke-opacity="0.22" stroke-width="0.6"/>
-    </pattern>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00ff41" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#00ff41" stop-opacity="1"/>
-      <stop offset="1" stop-color="#00ff41" stop-opacity="0"/>
-    </linearGradient>
-    <clipPath id="frame"><rect x="2" y="2" width="896" height="246" rx="14"/></clipPath>
-  </defs>
-
-  <style>
-    .name { font-family: "Trebuchet MS", "Segoe UI", Verdana, sans-serif; font-weight: 800; font-size: 52px; letter-spacing: 1px; }
-    .sub  { font-family: ui-monospace, Consolas, monospace; font-size: 19px; letter-spacing: 2px; }
-    .tag  { font-family: ui-monospace, Consolas, monospace; font-size: 12px; letter-spacing: 3px; fill:#4ade80; opacity:.75; }
-    .g1 { animation: g1 5.5s steps(1) infinite; }
-    .g2 { animation: g2 5.5s steps(1) infinite; }
-    .scan { animation: scan 4.5s linear infinite; }
-    .cur { animation: blink 1s steps(1) infinite; }
-    .swl { animation: swl 4s ease-in-out infinite; }
-    @keyframes blink { 50% { opacity: 0; } }
-    @keyframes scan { 0% { transform: translateY(-10px); opacity:.0 } 10%{opacity:.5} 90%{opacity:.5} 100% { transform: translateY(250px); opacity:0 } }
-    @keyframes swl { 0%,100% { transform: translateX(-60%) } 50% { transform: translateX(60%) } }
-    @keyframes g1 {
-      0%,90%,100% { clip-path: inset(0 0 101% 0); transform: translate(0,0) }
-      91% { clip-path: inset(8% 0 78% 0);  transform: translate(-4px,0) }
-      94% { clip-path: inset(44% 0 42% 0); transform: translate(5px,0) }
-      97% { clip-path: inset(72% 0 12% 0); transform: translate(-3px,0) }
-    }
-    @keyframes g2 {
-      0%,89%,100% { clip-path: inset(0 0 101% 0); transform: translate(0,0) }
-      90% { clip-path: inset(20% 0 66% 0); transform: translate(4px,0) }
-      93% { clip-path: inset(56% 0 30% 0); transform: translate(-5px,0) }
-      96% { clip-path: inset(80% 0 6% 0);  transform: translate(3px,0) }
-    }
-  </style>
-
-  <g clip-path="url(#frame)">
-    <rect x="2" y="2" width="896" height="246" rx="14" fill="url(#bg)"/>
-    <rect x="2" y="2" width="896" height="246" fill="url(#grid)"/>
-
-    <!-- moving scanline -->
-    <rect class="scan" x="2" y="0" width="896" height="2.5" fill="#00ff41" opacity="0.4"/>
-
-    <!-- top tag -->
-    <text x="450" y="52" text-anchor="middle" class="tag">// ACCESS GRANTED &#183; ADVERSARY EMULATION &#183; MITRE ATT&amp;CK</text>
-
-    <!-- name + glitch layers -->
-    <g filter="url(#glow)">
-      <text x="450" y="135" text-anchor="middle" class="name g2" fill="#00e5ff">Md. Wahid Sadiq Ratul</text>
-      <text x="450" y="135" text-anchor="middle" class="name g1" fill="#ff2d9b">Md. Wahid Sadiq Ratul</text>
-      <text x="450" y="135" text-anchor="middle" class="name" fill="#00ff41">Md. Wahid Sadiq Ratul</text>
-    </g>
-
-    <!-- animated underline -->
-    <rect x="300" y="152" width="300" height="2" fill="#0f5132"/>
-    <g clip-path="url(#underclip)">
-      <rect class="swl" x="300" y="151.5" width="300" height="3" fill="url(#sweep)"/>
-    </g>
-    <clipPath id="underclip"><rect x="300" y="150" width="300" height="6"/></clipPath>
-
-    <!-- subtitle -->
-    <text x="450" y="192" text-anchor="middle" class="sub" fill="#c9f7d4">
-      <tspan fill="#00ff41">&gt;</tspan> Red Team &#183; Offensive Security Engineer &#183; CPTS</text>
-    <rect class="cur" x="700" y="178" width="10" height="17" fill="#00ff41"/>
-
-    <!-- HUD corner brackets -->
-    <g stroke="#00ff41" stroke-width="2.5" fill="none" opacity="0.85">
-      <path d="M18 40 V18 H40"/>
-      <path d="M882 40 V18 H860"/>
-      <path d="M18 210 V232 H40"/>
-      <path d="M882 210 V232 H860"/>
-    </g>
-    <rect x="2.5" y="2.5" width="895" height="245" rx="14" fill="none" stroke="#00ff41" stroke-opacity="0.4" stroke-width="1.2"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="275" viewBox="0 0 900 275" role="img" aria-label="Ratul-netizen — Md. Wahid Sadiq Ratul, Red Team / Offensive Security Engineer">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#040606"/><stop offset="0.5" stop-color="#08110b"/><stop offset="1" stop-color="#040606"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#0f5132" stroke-opacity="0.20" stroke-width="0.6"/></pattern>
+<filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00ff41" stop-opacity="0"/><stop offset="0.5" stop-color="#00ff41" stop-opacity="1"/><stop offset="1" stop-color="#00ff41" stop-opacity="0"/></linearGradient>
+<clipPath id="frame"><rect x="2" y="2" width="896" height="271" rx="14"/></clipPath>
+<clipPath id="underclip"><rect x="330" y="176" width="240" height="6"/></clipPath>
+</defs>
+<style>
+.hnd{font-family:"Trebuchet MS","Segoe UI",Verdana,sans-serif;font-weight:800;font-size:58px;letter-spacing:1px}
+.sub{font-family:ui-monospace,Consolas,monospace;font-size:18px;letter-spacing:1.5px}
+.nm{font-family:ui-monospace,Consolas,monospace;font-size:14px;letter-spacing:5px;fill:#5fe08a;opacity:.85}
+.tag{font-family:ui-monospace,Consolas,monospace;font-size:11.5px;letter-spacing:3px;fill:#4ade80;opacity:.8}
+.hud{font-family:ui-monospace,Consolas,monospace;font-size:10.5px;letter-spacing:2px;fill:#3ea76a;opacity:.85}
+.bin{font-family:ui-monospace,Consolas,monospace;font-size:13px;fill:#00ff41}
+.cur{animation:blink 1s steps(1) infinite}
+.dot{animation:blink 1.2s steps(1) infinite}
+.scan{animation:scan 4.5s linear infinite}
+.swl{animation:swl 4s ease-in-out infinite}
+.g1{animation:g1 5.5s steps(1) infinite}
+.g2{animation:g2 5.5s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+@keyframes scan{0%{transform:translateY(-10px);opacity:0}10%{opacity:.5}90%{opacity:.5}100%{transform:translateY(275px);opacity:0}}
+@keyframes swl{0%,100%{transform:translateX(-55%)}50%{transform:translateX(55%)}}
+@keyframes g1{0%,90%,100%{clip-path:inset(0 0 101% 0);transform:translate(0,0)}91%{clip-path:inset(8% 0 78% 0);transform:translate(-4px,0)}94%{clip-path:inset(44% 0 42% 0);transform:translate(5px,0)}97%{clip-path:inset(72% 0 12% 0);transform:translate(-3px,0)}}
+@keyframes g2{0%,89%,100%{clip-path:inset(0 0 101% 0);transform:translate(0,0)}90%{clip-path:inset(20% 0 66% 0);transform:translate(4px,0)}93%{clip-path:inset(56% 0 30% 0);transform:translate(-5px,0)}96%{clip-path:inset(80% 0 6% 0);transform:translate(3px,0)}}
+.s0{animation:bs0 5.28s linear infinite}
+@keyframes bs0{from{transform:translateY(-150px)}to{transform:translateY(60px)}}
+.s1{animation:bs1 8.15s linear infinite}
+@keyframes bs1{from{transform:translateY(-150px)}to{transform:translateY(60px)}}
+.s2{animation:bs2 7.38s linear infinite}
+@keyframes bs2{from{transform:translateY(-150px)}to{transform:translateY(60px)}}
+.s3{animation:bs3 7.64s linear infinite}
+@keyframes bs3{from{transform:translateY(-150px)}to{transform:translateY(60px)}}
+.s4{animation:bs4 7.21s linear infinite}
+@keyframes bs4{from{transform:translateY(-150px)}to{transform:translateY(60px)}}
+.s5{animation:bs5 7.89s linear infinite}
+@keyframes bs5{from{transform:translateY(-150px)}to{transform:translateY(60px)}}
+.s6{animation:bs6 7.67s linear infinite}
+@keyframes bs6{from{transform:translateY(-150px)}to{transform:translateY(60px)}}
+.s7{animation:bs7 9.08s linear infinite}
+@keyframes bs7{from{transform:translateY(-150px)}to{transform:translateY(60px)}}
+.s8{animation:bs8 5.66s linear infinite}
+@keyframes bs8{from{transform:translateY(-150px)}to{transform:translateY(60px)}}
+.s9{animation:bs9 9.05s linear infinite}
+@keyframes bs9{from{transform:translateY(-150px)}to{transform:translateY(60px)}}
+.s10{animation:bs10 8.81s linear infinite}
+@keyframes bs10{from{transform:translateY(-150px)}to{transform:translateY(60px)}}
+</style>
+<g clip-path="url(#frame)">
+<rect x="2" y="2" width="896" height="271" rx="14" fill="url(#bg)"/>
+<rect x="2" y="2" width="896" height="271" fill="url(#grid)"/>
+<g opacity="0.1">
+<g class="s0" style="animation-delay:-4.28s"><text x="34" y="0" class="bin">
+<tspan x="34" dy="0">1</tspan>
+<tspan x="34" dy="18">0</tspan>
+<tspan x="34" dy="18">1</tspan>
+<tspan x="34" dy="18">0</tspan>
+<tspan x="34" dy="18">1</tspan>
+<tspan x="34" dy="18">0</tspan>
+<tspan x="34" dy="18">1</tspan>
+<tspan x="34" dy="18">1</tspan>
+<tspan x="34" dy="18">1</tspan>
+<tspan x="34" dy="18">0</tspan>
+<tspan x="34" dy="18">1</tspan>
+<tspan x="34" dy="18">1</tspan>
+<tspan x="34" dy="18">1</tspan>
+<tspan x="34" dy="18">1</tspan>
+<tspan x="34" dy="18">0</tspan>
+<tspan x="34" dy="18">0</tspan>
+</text></g>
+<g class="s1" style="animation-delay:-2.73s"><text x="117" y="0" class="bin">
+<tspan x="117" dy="0">0</tspan>
+<tspan x="117" dy="18">0</tspan>
+<tspan x="117" dy="18">1</tspan>
+<tspan x="117" dy="18">0</tspan>
+<tspan x="117" dy="18">1</tspan>
+<tspan x="117" dy="18">0</tspan>
+<tspan x="117" dy="18">0</tspan>
+<tspan x="117" dy="18">0</tspan>
+<tspan x="117" dy="18">1</tspan>
+<tspan x="117" dy="18">1</tspan>
+<tspan x="117" dy="18">0</tspan>
+<tspan x="117" dy="18">1</tspan>
+<tspan x="117" dy="18">1</tspan>
+<tspan x="117" dy="18">0</tspan>
+<tspan x="117" dy="18">1</tspan>
+<tspan x="117" dy="18">1</tspan>
+</text></g>
+<g class="s2" style="animation-delay:-3.49s"><text x="192" y="0" class="bin">
+<tspan x="192" dy="0">1</tspan>
+<tspan x="192" dy="18">0</tspan>
+<tspan x="192" dy="18">0</tspan>
+<tspan x="192" dy="18">1</tspan>
+<tspan x="192" dy="18">1</tspan>
+<tspan x="192" dy="18">1</tspan>
+<tspan x="192" dy="18">1</tspan>
+<tspan x="192" dy="18">1</tspan>
+<tspan x="192" dy="18">1</tspan>
+<tspan x="192" dy="18">1</tspan>
+<tspan x="192" dy="18">1</tspan>
+<tspan x="192" dy="18">1</tspan>
+<tspan x="192" dy="18">1</tspan>
+<tspan x="192" dy="18">1</tspan>
+<tspan x="192" dy="18">1</tspan>
+<tspan x="192" dy="18">0</tspan>
+</text></g>
+<g class="s3" style="animation-delay:-0.38s"><text x="272" y="0" class="bin">
+<tspan x="272" dy="0">1</tspan>
+<tspan x="272" dy="18">1</tspan>
+<tspan x="272" dy="18">1</tspan>
+<tspan x="272" dy="18">0</tspan>
+<tspan x="272" dy="18">0</tspan>
+<tspan x="272" dy="18">0</tspan>
+<tspan x="272" dy="18">1</tspan>
+<tspan x="272" dy="18">1</tspan>
+<tspan x="272" dy="18">1</tspan>
+<tspan x="272" dy="18">0</tspan>
+<tspan x="272" dy="18">1</tspan>
+<tspan x="272" dy="18">0</tspan>
+<tspan x="272" dy="18">1</tspan>
+<tspan x="272" dy="18">1</tspan>
+<tspan x="272" dy="18">1</tspan>
+<tspan x="272" dy="18">0</tspan>
+</text></g>
+<g class="s4" style="animation-delay:-7.6s"><text x="344" y="0" class="bin">
+<tspan x="344" dy="0">0</tspan>
+<tspan x="344" dy="18">1</tspan>
+<tspan x="344" dy="18">0</tspan>
+<tspan x="344" dy="18">1</tspan>
+<tspan x="344" dy="18">0</tspan>
+<tspan x="344" dy="18">0</tspan>
+<tspan x="344" dy="18">1</tspan>
+<tspan x="344" dy="18">1</tspan>
+<tspan x="344" dy="18">1</tspan>
+<tspan x="344" dy="18">0</tspan>
+<tspan x="344" dy="18">0</tspan>
+<tspan x="344" dy="18">1</tspan>
+<tspan x="344" dy="18">0</tspan>
+<tspan x="344" dy="18">0</tspan>
+<tspan x="344" dy="18">1</tspan>
+<tspan x="344" dy="18">1</tspan>
+</text></g>
+<g class="s5" style="animation-delay:-5.83s"><text x="435" y="0" class="bin">
+<tspan x="435" dy="0">1</tspan>
+<tspan x="435" dy="18">0</tspan>
+<tspan x="435" dy="18">0</tspan>
+<tspan x="435" dy="18">1</tspan>
+<tspan x="435" dy="18">0</tspan>
+<tspan x="435" dy="18">0</tspan>
+<tspan x="435" dy="18">1</tspan>
+<tspan x="435" dy="18">1</tspan>
+<tspan x="435" dy="18">1</tspan>
+<tspan x="435" dy="18">1</tspan>
+<tspan x="435" dy="18">0</tspan>
+<tspan x="435" dy="18">1</tspan>
+<tspan x="435" dy="18">0</tspan>
+<tspan x="435" dy="18">0</tspan>
+<tspan x="435" dy="18">0</tspan>
+<tspan x="435" dy="18">1</tspan>
+</text></g>
+<g class="s6" style="animation-delay:-1.7s"><text x="510" y="0" class="bin">
+<tspan x="510" dy="0">0</tspan>
+<tspan x="510" dy="18">1</tspan>
+<tspan x="510" dy="18">0</tspan>
+<tspan x="510" dy="18">0</tspan>
+<tspan x="510" dy="18">0</tspan>
+<tspan x="510" dy="18">1</tspan>
+<tspan x="510" dy="18">0</tspan>
+<tspan x="510" dy="18">1</tspan>
+<tspan x="510" dy="18">0</tspan>
+<tspan x="510" dy="18">1</tspan>
+<tspan x="510" dy="18">0</tspan>
+<tspan x="510" dy="18">1</tspan>
+<tspan x="510" dy="18">0</tspan>
+<tspan x="510" dy="18">1</tspan>
+<tspan x="510" dy="18">1</tspan>
+<tspan x="510" dy="18">0</tspan>
+</text></g>
+<g class="s7" style="animation-delay:-4.86s"><text x="588" y="0" class="bin">
+<tspan x="588" dy="0">0</tspan>
+<tspan x="588" dy="18">1</tspan>
+<tspan x="588" dy="18">0</tspan>
+<tspan x="588" dy="18">0</tspan>
+<tspan x="588" dy="18">0</tspan>
+<tspan x="588" dy="18">1</tspan>
+<tspan x="588" dy="18">1</tspan>
+<tspan x="588" dy="18">1</tspan>
+<tspan x="588" dy="18">1</tspan>
+<tspan x="588" dy="18">0</tspan>
+<tspan x="588" dy="18">0</tspan>
+<tspan x="588" dy="18">0</tspan>
+<tspan x="588" dy="18">1</tspan>
+<tspan x="588" dy="18">0</tspan>
+<tspan x="588" dy="18">1</tspan>
+<tspan x="588" dy="18">0</tspan>
+</text></g>
+<g class="s8" style="animation-delay:-1.31s"><text x="674" y="0" class="bin">
+<tspan x="674" dy="0">0</tspan>
+<tspan x="674" dy="18">1</tspan>
+<tspan x="674" dy="18">1</tspan>
+<tspan x="674" dy="18">1</tspan>
+<tspan x="674" dy="18">1</tspan>
+<tspan x="674" dy="18">0</tspan>
+<tspan x="674" dy="18">0</tspan>
+<tspan x="674" dy="18">1</tspan>
+<tspan x="674" dy="18">0</tspan>
+<tspan x="674" dy="18">1</tspan>
+<tspan x="674" dy="18">0</tspan>
+<tspan x="674" dy="18">0</tspan>
+<tspan x="674" dy="18">1</tspan>
+<tspan x="674" dy="18">0</tspan>
+<tspan x="674" dy="18">1</tspan>
+<tspan x="674" dy="18">1</tspan>
+</text></g>
+<g class="s9" style="animation-delay:-5.71s"><text x="743" y="0" class="bin">
+<tspan x="743" dy="0">1</tspan>
+<tspan x="743" dy="18">0</tspan>
+<tspan x="743" dy="18">0</tspan>
+<tspan x="743" dy="18">1</tspan>
+<tspan x="743" dy="18">1</tspan>
+<tspan x="743" dy="18">0</tspan>
+<tspan x="743" dy="18">0</tspan>
+<tspan x="743" dy="18">1</tspan>
+<tspan x="743" dy="18">0</tspan>
+<tspan x="743" dy="18">1</tspan>
+<tspan x="743" dy="18">0</tspan>
+<tspan x="743" dy="18">1</tspan>
+<tspan x="743" dy="18">1</tspan>
+<tspan x="743" dy="18">1</tspan>
+<tspan x="743" dy="18">0</tspan>
+<tspan x="743" dy="18">0</tspan>
+</text></g>
+<g class="s10" style="animation-delay:-0.57s"><text x="835" y="0" class="bin">
+<tspan x="835" dy="0">1</tspan>
+<tspan x="835" dy="18">1</tspan>
+<tspan x="835" dy="18">0</tspan>
+<tspan x="835" dy="18">0</tspan>
+<tspan x="835" dy="18">1</tspan>
+<tspan x="835" dy="18">0</tspan>
+<tspan x="835" dy="18">0</tspan>
+<tspan x="835" dy="18">1</tspan>
+<tspan x="835" dy="18">1</tspan>
+<tspan x="835" dy="18">0</tspan>
+<tspan x="835" dy="18">0</tspan>
+<tspan x="835" dy="18">1</tspan>
+<tspan x="835" dy="18">0</tspan>
+<tspan x="835" dy="18">0</tspan>
+<tspan x="835" dy="18">0</tspan>
+<tspan x="835" dy="18">0</tspan>
+</text></g>
+</g>
+<rect class="scan" x="2" y="0" width="896" height="2.5" fill="#00ff41" opacity="0.4"/>
+<text x="30" y="34" class="hud">&gt; SYS://PROFILE_v4</text>
+<text x="870" y="34" text-anchor="end" class="hud">UID:019EC627</text>
+<circle class="dot" cx="878" cy="30" r="3" fill="#00ff41"/>
+<g stroke="#00ff41" stroke-width="3" fill="none" opacity="0.55"><path d="M182 96 h-16 v62 h16"/><path d="M718 96 h16 v62 h-16"/></g>
+<g filter="url(#glow)">
+<text x="450" y="146" text-anchor="middle" class="hnd g2" fill="#00e5ff">Ratul-netizen</text>
+<text x="450" y="146" text-anchor="middle" class="hnd g1" fill="#ff2d9b">Ratul-netizen</text>
+<text x="450" y="146" text-anchor="middle" class="hnd" fill="#00ff41">Ratul-netizen</text>
+</g>
+<text x="450" y="172" text-anchor="middle" class="nm">MD. WAHID SADIQ RATUL</text>
+<rect x="330" y="178" width="240" height="2" fill="#0f5132"/>
+<g clip-path="url(#underclip)"><rect class="swl" x="330" y="177.5" width="240" height="3" fill="url(#sweep)"/></g>
+<text x="450" y="214" text-anchor="middle" class="sub" fill="#c9f7d4"><tspan fill="#00ff41">&gt; </tspan>Red Team · Offensive Security Engineer · CPTS <tspan class="cur" fill="#00ff41">_</tspan></text>
+<text x="450" y="250" text-anchor="middle" class="tag">// ADVERSARY EMULATION · MITRE ATT&amp;CK · DETECTION ENGINEERING · OSINT</text>
+<g stroke="#00ff41" stroke-width="2.5" fill="none" opacity="0.85"><path d="M18 44 V18 H44"/><path d="M882 44 V18 H856"/><path d="M18 231 V257 H44"/><path d="M882 231 V257 H856"/></g>
+<rect x="2.5" y="2.5" width="895" height="270" rx="14" fill="none" stroke="#00ff41" stroke-opacity="0.4" stroke-width="1.2"/>
+</g></svg>
